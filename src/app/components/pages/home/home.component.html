@@ -11,5 +11,4 @@
     </button>
 </header>
 
-
-<app-criar-tarefa *ngIf="isOpen"></app-criar-tarefa>
+<app-criar-tarefa *ngIf="isOpen" (close)="openModal()"></app-criar-tarefa>

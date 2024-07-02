@@ -1,0 +1,20 @@
+.container {
+  background-color:#FFF0F5;
+  border-radius: 5px;
+  margin: 6% 32%;
+  height: 60vh;
+  width: 32%;
+
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+button {
+  background: none;
+  border: none;
+}:hover {
+  cursor: pointer;
+}
+
